@@ -1,4 +1,4 @@
-module github.com/miekg/dns
+module github.com/netbpf/dns
 
 go 1.19
 
@@ -9,4 +9,9 @@ require (
 	golang.org/x/tools v0.22.0
 )
 
-require golang.org/x/mod v0.18.0 // indirect
+require (
+	github.com/dvyukov/go-fuzz v0.0.0-20240203152606-b1ce7bc07150 // indirect
+	github.com/elazarl/go-bindata-assetfs v1.0.1 // indirect
+	github.com/stephens2424/writerset v1.0.2 // indirect
+	golang.org/x/mod v0.18.0 // indirect
+)
